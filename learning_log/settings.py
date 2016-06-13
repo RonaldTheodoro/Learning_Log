@@ -127,4 +127,4 @@ BOOTSTRAP3 = {'include_jquery': True}
 if os.getcwd() == '/app':
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-    STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'))
+    STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
